@@ -1,8 +1,24 @@
 {
+    "name": "wonderful/wonderpress",
+    "description": "Wordpress dev environment tooling for OSX Mojave and NGINX",
+    "type": "project",
+
     "require-dev": {
-        "dealerdirect/phpcodesniffer-composer-installer": "*",
-        "object-calisthenics/phpcs-calisthenics-rules": "*",
-        "phpcompatibility/php-compatibility": "^9.3",
-        "wp-coding-standards/wpcs": "*"
+	  "codeception/codeception": "^4.1",
+	  "codeception/lib-asserts": "^1.11",
+	  "codeception/verify": "^1.3",
+	  "codeception/phpunit-wrapper": "^9.0",
+	  "dealerdirect/phpcodesniffer-composer-installer": "*",
+	  "object-calisthenics/phpcs-calisthenics-rules": "*",
+	  "phpcompatibility/php-compatibility": "^9.3",
+	  "phpunit/php-code-coverage": "^8.0",
+	  "phpunit/phpunit": "^9.0",
+	  "phpunit/phpunit-selenium": "*",
+	  "wp-coding-standards/wpcs": "*"
+    },
+    "require": {
+        "guzzlehttp/psr7": "^1.6",
+        "guzzlehttp/guzzle": "^6.5",
+        "guzzlehttp/promises": "^1.3"
     }
 }
